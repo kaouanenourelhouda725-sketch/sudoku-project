@@ -21,5 +21,4 @@ Empty cells are represented by 0.
 ## Team Members
 - Hadouche Douaa
 - Kaouane Nour El Houda
-تم الإرسال
 
