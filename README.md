@@ -11,7 +11,7 @@ Empty cells are represented by 0.
 1. Compile the program:
    gcc main.c -o sudoku
 2. Run the program:
-   ./sudoku
+   sudoku/.
 
 ## Features
 - Solves a 9x9 Sudoku
