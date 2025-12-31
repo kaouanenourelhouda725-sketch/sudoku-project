@@ -15,7 +15,17 @@ while(1){
         }
         printf("\n");
     }
-   
+    full = 1;
+    for(i = 0; i < 9; i++) {
+        for (j = 0; j < 9; j++) {
+            if (grid[i][j] == 0)
+                full = 0;
+        }
+    }
+    if (full == 1) {
+        printf("sudoko grid is complete\n");
+        break;
+    }
 
 int isValid(int row, int col, int num) {
     int i, j;
