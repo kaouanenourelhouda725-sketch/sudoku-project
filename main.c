@@ -8,6 +8,13 @@ for (i=0;i<9;i++){
    }
 }
 while(1){
+   printf("Current Sudoku Grid:\n");
+    for (i = 0; i < 9; i++) {
+        for (j = 0; j < 9; j++) {
+            printf("%d ", grid[i][j]);
+        }
+        printf("\n");
+    }
    
 
 int isValid(int row, int col, int num) {
