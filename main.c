@@ -7,7 +7,8 @@ for (i=0;i<9;i++){
         scanf ("%d",&grid[i][j]);
    }
 }
-
+while(1){
+   
 
 int isValid(int row, int col, int num) {
     int i, j;
