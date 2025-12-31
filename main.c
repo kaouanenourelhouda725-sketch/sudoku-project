@@ -36,3 +36,5 @@ while(1){
 
     printf("Enter number (1-9): ");
     scanf("%d", &n);
+    row--;
+    col--;
