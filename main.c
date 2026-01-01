@@ -1,6 +1,6 @@
 #include <stdio.h>
 int grid[9][9];
-int i,j,row,col,n,full,ma_ja;
+int i,j,row,col,n,full,vaild;
 printf ("please enter the values of the sudoku grid(0 mean an emply cell)\n");
 for (i=0;i<9;i++){
    for (j=0;j<9;j++){
@@ -76,4 +76,9 @@ valid = 1;
     } else {
         printf(" Number violates Sudoku rules\n");
     }
+}
+
+printf ("you win ");
+printf ("program end");
+    return 0;
 }
